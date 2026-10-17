@@ -1,6 +1,4 @@
-#  🌿 ESG Multi-Label Classification: Rank 1 Phase 2
-
-This repository contains the winning Phase 2 solution for ESG (Environmental, Social, and Governance) text classification. The pipeline utilizes a Triple-Transformer Stacking Ensemble with a LightGBM Meta-Learner to achieve a robust F1-score.
+# 🌿 ESG Multi-Label Classification: Phase 2 solution (4th of 126 teams on the final leaderboard)
 🚀 The Architecture
 
 The solution follows a multi-stage stacking strategy:
