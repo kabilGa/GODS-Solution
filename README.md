@@ -58,9 +58,7 @@ The script automatically enforces the ESG Mutual Exclusivity Rule:
 
 📁 Repository Structure
 
-    train_stacking_ensemble.py: The main execution engine.
-
-    esg_rank1_phase2_final.csv: The final generated submission file.
+    Solution.ipynb: the notebook with the full solution
 
     README.md: Documentation.
 
