@@ -42,16 +42,13 @@ Ensure your datasets are located in the following directory structure:
 
     test.csv
 
-2. Execute Training
+2. Run the notebook
 
-Run the script to perform the full 21-fold training (3 models × 7 folds):
-Python
-
-python train_stacking_ensemble.py
+Open Solution.ipynb and run all cells to perform the full 21-fold training (3 models × 7 folds).
 
 3. Logic Recovery (Auto-Applied)
 
-The script automatically enforces the ESG Mutual Exclusivity Rule:
+The notebook automatically enforces the ESG Mutual Exclusivity Rule:
 
     If (E or S or G) == 1, then non_ESG = 0.
     If (E and S and G) == 0, then non_ESG = 1.
